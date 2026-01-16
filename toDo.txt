@@ -1,0 +1,32 @@
+Goals
+    - know the difference between npm and npx
+        create a react app 2 ways using vite
+    - using npm
+    - using npx
+
+
+--- Using npm to create a react app ---
+
+1. you need to install 
+     - recommend you install globally
+    create-vite: tool
+
+    CMD: npm install create-vite -g (done)
+
+2. create-vite
+    -give your project a name
+    -choose the framework - react
+    -variant - choose javascript
+
+--- Using npx to create a react app ---
+
+1. npm uninstall create-vite -g
+    CMD: it will remove create-vite global
+
+    create-vite (to check if the removal was a success)
+
+2. run npx create-vite
+    -give your project a name
+    -choose the framework - react
+    -variant - choose javascript
+    

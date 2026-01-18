@@ -5,9 +5,9 @@ import ImageSection from './Image.jsx'
 
 
 function MainSection () {
-    return (<div>
-        <GetFacts />
+    return (<div className = "grid grid-cols-1 md:grid-cols-3 gap 8">
         <GetHistory />
+        <GetFacts />
         <ImageSection />
     </div>)
 }

@@ -3,7 +3,7 @@ import Description from './Description';
 
 
 function Header () {
-    return (<div className = "shadow-md my-4">
+    return (<div className = "text-4xl md:text-5xl font-bold text-center mb-4 tracking-tight">
         <Title />
         <Description />
     </div>)

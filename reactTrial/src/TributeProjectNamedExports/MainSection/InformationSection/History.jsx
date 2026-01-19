@@ -1,6 +1,6 @@
 function GetHistory () {
 
-    return (<div className = "md:col-span-1 md:grid-cols-[300px_1fr] gap-6 space-y-5 text-sm leading-relaxed items-start">
+    return (<div class = "md:col-span-1 md:grid-cols-[300px_1fr] gap-6 space-y-5 text-sm leading-relaxed items-start">
         <p> 
             MMuammar Gaddafi (1942–2011) rose to prominence in 1969 when he led a group of young Libyan military officers 
             in a bloodless coup that overthrew King Idris I. At just 27 years old, Gaddafi abolished the monarchy and declared Libya a republic, 

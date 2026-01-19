@@ -1,7 +1,7 @@
 function GetFacts () {
-    return <div className = "mt-12 bg-white rounded-xl shadow-md p-6">
-        <h2 className = "text-xl font-semibold mb-4 border-b pb-2">Facts about al-Ghadafi</h2>
-        <ul className = "space-y-2 text-sm">
+    return <div class = "mt-12 bg-white rounded-xl shadow-md p-6">
+        <h2 class = "text-xl font-semibold mb-4 border-b pb-2">Facts about al-Ghadafi</h2>
+        <ul class = "space-y-2 text-sm">
             <li><strong>Full name:</strong> Muammar Muhammad Abu Minyar al-Gaddafi</li>
             <li><strong>Born:</strong> June 7, 1942, near Qasr Abu Hadi, Libya</li>
             <li><strong>Came to power:</strong> September 1, 1969 (military coup)</li>

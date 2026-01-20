@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './TributeProjectNamedExports/App.jsx'
+import App from './3GitHubUsers'
 import './index.css'
 
 
@@ -35,6 +35,6 @@ Rules exercise
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
+    <App />
   </StrictMode>,
 )

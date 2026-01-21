@@ -51,4 +51,11 @@ Steps
 
   11. pass real data now... avatar_url, login_url, 
 
+  12. Map method
+
+  13. Use the url to navigate 
+    - instead of showing the url have a button that one can click
+    - events -> click, hover, side effects
+    - react offers events through callback f(x)
+
 

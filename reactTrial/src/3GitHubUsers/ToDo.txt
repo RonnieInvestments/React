@@ -58,4 +58,8 @@ Steps
     - events -> click, hover, side effects
     - react offers events through callback f(x)
 
+  14. The Search section (onChange event, state management)
+    - take input from the user to search a specific person
+    - text input have a search and button
+
 

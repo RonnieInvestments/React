@@ -62,4 +62,11 @@ Steps
     - take input from the user to search a specific person
     - text input have a search and button
 
+  15. To learn state 
+   - main section
+   - numbers decrement or increment the numbers
+   - folder (learn basic state) - current project temp
+   - create file numbers
+   - increment/ decrement buttons
+
 

@@ -38,7 +38,7 @@ function StateNumbers () {
            <span>{n}</span>
 
            <button
-           className = "rounded-md shadow-md bg-red-600 text-white font-bold active: opacity-50 cursor-pointer"
+           className = "rounded-md shadow-md bg-blue-600 text-white font-bold active: opacity-50 cursor-pointer"
            style = {{
                 width: "20 px",
                 height: "20 px",

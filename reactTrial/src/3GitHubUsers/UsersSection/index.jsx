@@ -1,12 +1,17 @@
 import SingleUserV2 from "./UserV2";
 import Users from "./../users.json"
-import SingeleUserV2 from "./UserV2";
 
 
-function UsersSection () {
-    function toMap (item, index) {
+
+function UsersSection ({page}) {
+    if (page !== "Users") {
+        return null;
+    }
+
+    
+    function toMap (item) {
         return (
-            <SingeleUserV2 
+            <SingleUserV2 
             key = {item.id}
             avatar_url = {item.avatar_url}
             url = {item.html_url}

@@ -1,4 +1,21 @@
+import { useEffect } from "react";
+
+
 function SingeleUserV2 (props) {
+    /*
+    use effect - takes two parameters (function, dependency array)
+    */
+
+    useEffect (()=>{
+        console.log ("Component mounted");
+        console.log ("Use effect has run");
+    }, []);
+
+    // Check when a component is unmounted or dead
+
+    useEffect (()=>{
+        console.log ("I am now dead");
+    }, []); 
 
     // console.log("Props are", props);
     const navigate = () => {
@@ -7,12 +24,12 @@ function SingeleUserV2 (props) {
     }
 
     // onClick
-    function mouseOverCB (){
+    /* function mouseOverCB (){
         console.log ("Mouse over ", props.login)
-    }
+    } */
 
     return (
-        <div className= "m-2 rounded-md shadow-md" onMouseEnter = {mouseOverCB}>
+        <div className= "m-2 rounded-md shadow-md">
             <div className= "rounded-md">
                 <img className= "rounded-md" src = {props.avatar_url} />
             </div>
